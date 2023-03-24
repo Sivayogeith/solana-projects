@@ -1,10 +1,10 @@
+/* My styles */
 body {
 	background: linear-gradient(33deg, #62d396 20%, #6b4be1 90% 80%);
 	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
 }
 input {
 	background-color: transparent !important;
@@ -16,4 +16,7 @@ input {
 }
 .credits {
 	text-align: center;
+}
+body.swal2-height-auto {
+	height: 100vh !important;
 }
